@@ -652,6 +652,9 @@ nav a:hover::after{
     padding:20px;
     background:var(--beige);
 }
+   .voucher-photo-mobile{
+    display:none;
+}
 
 .voucher-photo img{
     width:100%;
@@ -1030,6 +1033,23 @@ footer{
         padding-bottom:85px;
     }
 
+   .voucher-photo{
+    display:none;
+}
+
+.voucher-photo-mobile{
+    display:block;
+    margin:30px auto 0;
+    padding:12px;
+    background:var(--beige);
+}
+
+.voucher-photo-mobile img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+
     .info-grid{
         grid-template-columns:1fr;
         gap:35px;
@@ -1123,10 +1143,6 @@ footer{
 
     .price{
         font-size:13px;
-    }
-
-    .voucher-photo{
-        padding:12px;
     }
 
     .cancellation{
@@ -1607,6 +1623,13 @@ footer{
                 Dopřejte svým blízkým chvíli péče, odpočinku a relaxace.
                 Informace o dárkových poukazech získáte telefonicky nebo přímo u mě v salonu.
             </p>
+
+           <div class="voucher-photo-mobile">
+    <img
+        src="poukaz.webp"
+        alt="Dárkový poukaz Pedikúra Katka"
+    >
+</div>
 
             <a href="#kontakt" class="btn btn-dark">
                 Objednat poukaz
