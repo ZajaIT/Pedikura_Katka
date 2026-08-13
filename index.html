@@ -512,6 +512,10 @@ nav a:hover::after{
     position:relative;
 }
 
+   .salon-photo-mobile{
+    display:none;
+}
+
 .salon-photo img{
     width:85%;
     max-height:560px;
@@ -1003,9 +1007,20 @@ footer{
         flex-direction:column;
     }
 
-    .salon-photo{
-        width:100%;
-    }
+   .salon-photo{
+    display:none;
+}
+
+.salon-photo-mobile{
+    display:block;
+    margin:30px auto 35px;
+}
+
+.salon-photo-mobile img{
+    width:100%;
+    height:auto;
+    display:block;
+}
 
     .pricing{
         padding-bottom:85px;
@@ -1419,6 +1434,13 @@ footer{
             <h2 class="section-title">
                 Místo pro péči i odpočinek
             </h2>
+
+           <div class="salon-photo-mobile">
+    <img
+        src="interier.webp"
+        alt="Interiér salonu Pedikúra Katka v Rychvaldu"
+    >
+</div>
 
             <div class="salon-list">
 
